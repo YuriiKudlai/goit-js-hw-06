@@ -1,7 +1,6 @@
 const validationInputEl = document.querySelector('#validation-input');
-console.log(validationInputEl);
 const dataLengthEl = document.querySelector('input[data-length]');
-console.log(dataLengthEl);
+
 
 const checkEnterSymbol = (event) => {
     if (event.target.value.length === Number(validationInputEl.dataset.length)) {
